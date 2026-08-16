@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
 //                    TopAppBarComponent(modifier = Modifier.padding(innerPadding))
 //                    NavigationDrawer(modifier = Modifier.padding(innerPadding))
-                   FlowRow {
+                    /*FlowRow {
                         ImageCard(
                             model = R.drawable.android_studio,
                             contentDescription = "Image Icon Android Studio",
@@ -52,7 +52,8 @@ class MainActivity : ComponentActivity() {
                             title = "Kotlin",
                             modifier = Modifier.padding(innerPadding)
                         )
-                    }
+                    }*/
+                    ShowSnackbars(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
