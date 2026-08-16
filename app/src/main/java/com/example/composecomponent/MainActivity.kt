@@ -53,7 +53,8 @@ class MainActivity : ComponentActivity() {
                             modifier = Modifier.padding(innerPadding)
                         )
                     }*/
-                    ShowSnackbars(modifier = Modifier.padding(innerPadding))
+//                    ShowSnackbars(modifier = Modifier.padding(innerPadding))
+                    ListItem(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
